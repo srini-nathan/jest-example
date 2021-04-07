@@ -3,10 +3,12 @@ const abbreviation = (inputString) => {
     throw new Error("Input string should be greater than three chars");
   }
 
+  const actualString = inputString.trim()
+
   const abbreviationString =
-    inputString.charAt(0) +
-    inputString.slice(1, -1).length +
-    inputString.charAt(inputString.length - 1);
+  actualString.charAt(0) +
+  actualString.slice(1, -1).length +
+  actualString.charAt(actualString.length - 1);
 
   return abbreviationString;
 };
