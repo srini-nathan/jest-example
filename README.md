@@ -1,4 +1,4 @@
-# jest-example
+# jest-example && abbreviation function logic
 
 ## HOW TO RUN
 1. git clone https://github.com/srini-nathan/jest-example.git
